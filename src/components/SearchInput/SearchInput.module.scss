@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+.label {
+  margin-right: 20px;
+  position: relative;
+  input {
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+}
+.input {
+  fieldset {
+    border-color: white;
+  }
+}
+
+.error {
+  color: red;
+  position: absolute;
+  left: 0;
+  top: 55px;
+  font-size: 16px;
+}

@@ -1,0 +1,30 @@
+.wrapper {
+  background-image: url("../../assets/images/back.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  padding: 0 30px;
+  overflow: auto;
+  position: relative;
+}
+.forecastList {
+  padding: 50px 0;
+}
+.locationName {
+  font-weight: 400;
+  opacity: 0.7;
+  padding-bottom: 20px;
+}
+.entryDetails {
+  text-align: center;
+  padding-top: 50px;
+  font-weight: normal;
+}
+.backBtn {
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 5%;
+}

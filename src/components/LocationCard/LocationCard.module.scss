@@ -1,0 +1,21 @@
+.wrapper {
+  padding: 20px;
+  font-size: 28px;
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  font-weight: normal;
+  background: linear-gradient(135deg, #72edf2 10%, #6767ed 100%, #3b3bea 50%);
+  box-shadow: rgba(163, 113, 248, 0.5) 6px 6px 10px 0px;
+}
+.mainTemp {
+  font-size: 70px;
+  font-weight: 500;
+}
+.locationName {
+  margin-top: 15px;
+}
